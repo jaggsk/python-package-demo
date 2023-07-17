@@ -29,7 +29,7 @@ setup(
     author='Kevin Jaggs',
     license='MIT',
     author_email='kevin.jaggs@ineos.com',
-    install_requires=[required],
+    install_requires=[req for req in required],
     keywords='python git setup example',
     classifiers=[
         'Intended Audience :: Developers',
