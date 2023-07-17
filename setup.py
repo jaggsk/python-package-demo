@@ -18,6 +18,8 @@ with open('requirements.txt') as f:
 version = get_version('python_package_demo')
 
 
+print(req for req in required)
+
 setup(
     name='python-package-demo',
     version='0.1.0',
