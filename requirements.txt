@@ -1,0 +1,6 @@
+docutils==0.20.1
+numpy==1.25.1
+plumbum==1.8.2
+ply==3.11
+Pygments==2.15.1
+pywin32==306
