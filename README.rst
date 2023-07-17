@@ -50,7 +50,7 @@ Install directly from a local git repo - best practice?
 
 .. code:: bash
 
-    pip install git+file:///H:/Python/python-package-demo
+    pip install git+https://github.com/jaggsk/python-package-demo
 
 Programming using Virtual Environments
 --------------------------------------
