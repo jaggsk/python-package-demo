@@ -18,7 +18,7 @@ with open('requirements.txt') as f:
 version = get_version('python_package_demo')
 
 
-print(req for req in required)
+#print(print(i) for i in required)
 
 setup(
     name='python-package-demo',
@@ -31,7 +31,7 @@ setup(
     author='Kevin Jaggs',
     license='MIT',
     author_email='kevin.jaggs@ineos.com',
-    install_requires=[req for req in required],
+    install_requires=[required],
     keywords='python git setup example',
     classifiers=[
         'Intended Audience :: Developers',
