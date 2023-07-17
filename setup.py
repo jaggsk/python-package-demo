@@ -17,7 +17,8 @@ with open('requirements.txt') as f:
 
 version = get_version('python_package_demo')
 
-
+for i in required:
+    print(i)
 #print(print(i) for i in required)
 
 setup(
